@@ -62,11 +62,40 @@
                     </div>  
                     <div class="col-6">
                         <hr>
-                        <h2>Duc Huy NGUYEN</h2>
+                        <h1><b>Duc Huy NGUYEN</b></h2>
                         <hr>
 
                         <!-- Information List -->
                         <p>Computer Science Student, Ton Duc Thang University</p>
+                        <ul>
+                            <li>
+                                October 17<sup>th</sup>, 2004 <span id="birthday-display"></span>
+
+                                <!-- Script to calculate day old -->
+                                <script> 
+                                    var birthday = new Date(2004, 9, 17);
+                                    var today = new Date();
+                                    var diff = today - birthday;
+                                    var diffDays = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    document.getElementById("birthday-display").innerHTML = " (Age: " + Math.floor(diffDays / 365) + " years " + diffDays % 365 + " days)";
+                                </script>
+                            </li>
+                            <li>
+                                Male
+                            </li>
+                            <li>
+                                Vietnamese
+                            </li>
+                            <li>
+                                Speak Vietnamese and English
+                            </li>
+                            <li>
+                                Live in Long An, Vietnam
+                            </li>
+                            <li>
+                                Spent ~2000 hours on Counter Strike: Global Offensive
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -112,6 +141,7 @@
                         <li>
                             <h5>TV Series and Movies</h5>
                             <ul>
+                                <li>Jin Yong's Wuxia series (CCTV version)
                                 <li>Journey to the West (1986)
                                 <li>Romance of the Three Kingdoms (1994)
                                 <li>Justice Bao (1993)
@@ -132,6 +162,6 @@
     <div class="container text-center">
       <span class="text-muted">© 2024 Kunnic</span>
     </div>
-  </footer>
+</footer>
 
 </html>

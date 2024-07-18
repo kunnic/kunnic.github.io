@@ -1,0 +1,15 @@
+.hover-box {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    transition: background-color 0.5s;
+}
+.hover-box:hover {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}

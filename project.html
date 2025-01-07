@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects</title>
+</head>
+
+<!-- Add BootStrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/add_class.css">
+
+<!-- Add Optional JS for BootStrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    footer {
+        flex-shrink: 0;
+    }
+    .text-justified {
+        text-align: justify;
+    }
+</style>
+
+<body>
+    <!-- Navigation bar (With bootstrap)-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <!-- An image of the main icon redirects to the main index.html -->
+        <a class="navbar-brand" href="/">
+            <img src="/img/kunnic_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            kunnic
+        </a>
+
+        <!-- Navigation bar items on the right side -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Home button -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <!-- More info button -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/more_info">More info</a>
+                </li>
+                <!-- Projects button -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="/project">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Padding <p> -->
+                <p></p>
+
+                <h1>Projects</h1>
+                    
+                <hr>
+
+                <!-- Project List -->
+                <div>
+                    <h3>Project 1: Personal Website</h3>
+                    <p class="text-justified">
+                        This is my personal website where I showcase my portfolio, blog, and contact information. It is built using HTML, CSS, and JavaScript, and it is hosted on GitHub Pages.
+                    </p>
+                    <hr>
+                    <h3>JiaJiaZi's Countdown</h3>
+                    <p class="text-justified">
+                        Tired of waiting for the Three Years Contract? My countdown timer will make the wait less painful, or maybe more so, by constantly reminding you how much time is left, down to the milliseconds!
+                    </p>
+
+                    <a href="https://kunnic.github.io/jiajiazi_countdown/" target="_blank">
+                        <p>
+                            Take me to the countdown!
+                        </p>
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+      <span class="text-muted">© 2024 Kunnic</span>
+    </div>
+</footer>
+
+</html>
